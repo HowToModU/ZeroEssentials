@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/mossy_cobblestone",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "minecraft:item/zombie_head_ui"
+    }
+  ]
+}

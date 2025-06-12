@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback":{
+			"type": "model",
+			"model": "item/stone_sword"
+		},
+		"cases": [
+			{
+				"when": "katana",
+				"model": {
+					"type": "model",
+					"model": "item/katana"
+				}
+			}
+		]
+	}
+}

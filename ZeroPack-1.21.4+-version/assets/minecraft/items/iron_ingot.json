@@ -1,0 +1,26 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback":{
+			"type": "model",
+			"model": "item/iron_ingot"
+		},
+		"cases": [
+			{
+				"when": "gear",
+				"model": {
+					"type": "model",
+					"model": "item/non-models/gear"
+				}
+			},
+			{
+				"when": "circuit",
+				"model": {
+					"type": "model",
+					"model": "item/non-models/circuit_base"
+				}
+			}
+		]
+	}
+}
